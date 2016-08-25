@@ -5,8 +5,9 @@ import {GithubComponent} from './components/github.component'
 import {GithubService} from './services/github.service'
 
 @Component({
+    moduleId: module.id,
     selector: 'my-app',
-    template: '<github></github>',
+    templateUrl: 'app.component.html',
     directives: [GithubComponent],
     providers: [HTTP_PROVIDERS, GithubService]
 })
