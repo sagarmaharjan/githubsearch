@@ -7,7 +7,7 @@ import 'rxjs/add/operator/map';
 @Injectable()
 
 export class GithubService{
-    private username = "sagarmaharjan";
+    private username = "bradtraversy";
     
     constructor(private _http: Http){
         console.log('Github Service Started....');       
